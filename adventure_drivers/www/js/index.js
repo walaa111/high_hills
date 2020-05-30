@@ -62,7 +62,7 @@ var app = {
 
         this.receivedEvent('deviceready');
 
- var inAppBrowserbRef = cordova.InAppBrowser.open('https://games.cdn.famobi.com/html5games/h/high-hills/v130/?fg_domain=play.famobi.com&fg_aid=A1000-1&fg_uid=2a35d037-696c-4351-9e34-7260392f9404&fg_pid=4638e320-4444-4514-81c4-d80a8c662371&fg_beat=816&original_ref=https%3A%2F%2Fhtml5games.com%2FGame%2FHigh-Hills%2F2a35d037-696c-4351-9e34-7260392f9404', '_self', 'location=no,toolbar=no,zoom=no,clearcache=yes,hidespinner=no,beforeload=yes');
+ var inAppBrowserbRef = cordova.InAppBrowser.open('https://play.famobi.com/high-hills', '_self', 'location=no,toolbar=no,zoom=no,clearcache=yes,hidespinner=no,beforeload=yes');
 
 /*
 inAppBrowserbRef.addEventListener('loadstart', function() {
